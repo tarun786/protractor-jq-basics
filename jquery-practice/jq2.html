@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function()
+{
+  $("button").dblclick(function()
+{
+  $("p").hide();
+
+});
+
+$("#h00").click(function()
+{
+  $("#h00").hide();
+  $(".clickAway").hide();
+});
+
+
+});
+</script>
+</head>
+<body>
+
+<p>If you click on me, I will disappear.</p>
+<p class="clickAway">Click me away!</p>
+<p>Click me too!</p>
+<h2 id="h00">Hi this is header</h2>
+<button value="click me">Click Me I will Remove ALL P</button>
+</body>
+</html>
